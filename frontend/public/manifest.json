@@ -1,0 +1,463 @@
+{
+  "total_slices": 50,
+  "architecture": "Conv-MAE",
+  "dataset_train": "IXI (normal MRI)",
+  "dataset_test": "BraTS 2020",
+  "metrics": {
+    "roc_auc": 0.7684,
+    "f1": 0.6551,
+    "note": "Balanced Demo Set"
+  },
+  "slices": [
+    {
+      "id": 0,
+      "base": "slice_0000",
+      "score": 0.1332,
+      "label": 0,
+      "subject": 0,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 1,
+      "base": "slice_0001",
+      "score": 0.1229,
+      "label": 0,
+      "subject": 1,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 2,
+      "base": "slice_0002",
+      "score": 0.1039,
+      "label": 0,
+      "subject": 2,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 3,
+      "base": "slice_0003",
+      "score": 0.097,
+      "label": 0,
+      "subject": 3,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 4,
+      "base": "slice_0004",
+      "score": 0.1037,
+      "label": 0,
+      "subject": 4,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 5,
+      "base": "slice_0005",
+      "score": 0.089,
+      "label": 0,
+      "subject": 5,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 6,
+      "base": "slice_0006",
+      "score": 0.124,
+      "label": 0,
+      "subject": 6,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 7,
+      "base": "slice_0007",
+      "score": 0.0822,
+      "label": 0,
+      "subject": 7,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 8,
+      "base": "slice_0008",
+      "score": 0.0567,
+      "label": 0,
+      "subject": 8,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 9,
+      "base": "slice_0009",
+      "score": 0.0498,
+      "label": 0,
+      "subject": 9,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 10,
+      "base": "slice_0010",
+      "score": 0.1365,
+      "label": 0,
+      "subject": 10,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 11,
+      "base": "slice_0011",
+      "score": 0.0444,
+      "label": 0,
+      "subject": 11,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 12,
+      "base": "slice_0012",
+      "score": 0.145,
+      "label": 0,
+      "subject": 12,
+      "has_gt": false,
+      "region": "inferior"
+    },
+    {
+      "id": 13,
+      "base": "slice_0013",
+      "score": 0.0439,
+      "label": 0,
+      "subject": 13,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 14,
+      "base": "slice_0014",
+      "score": 0.0584,
+      "label": 0,
+      "subject": 14,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 15,
+      "base": "slice_0015",
+      "score": 0.1413,
+      "label": 0,
+      "subject": 15,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 16,
+      "base": "slice_0016",
+      "score": 0.0475,
+      "label": 0,
+      "subject": 16,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 17,
+      "base": "slice_0017",
+      "score": 0.0969,
+      "label": 0,
+      "subject": 17,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 18,
+      "base": "slice_0018",
+      "score": 0.1437,
+      "label": 0,
+      "subject": 18,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 19,
+      "base": "slice_0019",
+      "score": 0.0533,
+      "label": 0,
+      "subject": 19,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 20,
+      "base": "slice_0020",
+      "score": 0.1191,
+      "label": 0,
+      "subject": 20,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 21,
+      "base": "slice_0021",
+      "score": 0.1084,
+      "label": 0,
+      "subject": 21,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 22,
+      "base": "slice_0022",
+      "score": 0.149,
+      "label": 0,
+      "subject": 22,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 23,
+      "base": "slice_0023",
+      "score": 0.1193,
+      "label": 0,
+      "subject": 23,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 24,
+      "base": "slice_0024",
+      "score": 0.1462,
+      "label": 0,
+      "subject": 24,
+      "has_gt": false,
+      "region": "mid-inferior"
+    },
+    {
+      "id": 25,
+      "base": "slice_0025",
+      "score": 0.9311,
+      "label": 1,
+      "subject": 109,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 26,
+      "base": "slice_0026",
+      "score": 0.9325,
+      "label": 1,
+      "subject": 110,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 27,
+      "base": "slice_0027",
+      "score": 0.9273,
+      "label": 1,
+      "subject": 111,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 28,
+      "base": "slice_0028",
+      "score": 0.923,
+      "label": 1,
+      "subject": 112,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 29,
+      "base": "slice_0029",
+      "score": 0.9276,
+      "label": 1,
+      "subject": 113,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 30,
+      "base": "slice_0030",
+      "score": 0.9432,
+      "label": 1,
+      "subject": 114,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 31,
+      "base": "slice_0031",
+      "score": 0.9257,
+      "label": 1,
+      "subject": 115,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 32,
+      "base": "slice_0032",
+      "score": 0.9174,
+      "label": 1,
+      "subject": 116,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 33,
+      "base": "slice_0033",
+      "score": 0.9146,
+      "label": 1,
+      "subject": 117,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 34,
+      "base": "slice_0034",
+      "score": 0.9137,
+      "label": 1,
+      "subject": 118,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 35,
+      "base": "slice_0035",
+      "score": 0.9181,
+      "label": 1,
+      "subject": 119,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 36,
+      "base": "slice_0036",
+      "score": 0.9148,
+      "label": 1,
+      "subject": 120,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 37,
+      "base": "slice_0037",
+      "score": 0.9085,
+      "label": 1,
+      "subject": 121,
+      "has_gt": true,
+      "region": "mid-superior"
+    },
+    {
+      "id": 38,
+      "base": "slice_0038",
+      "score": 0.9075,
+      "label": 1,
+      "subject": 122,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 39,
+      "base": "slice_0039",
+      "score": 0.9052,
+      "label": 1,
+      "subject": 123,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 40,
+      "base": "slice_0040",
+      "score": 0.907,
+      "label": 1,
+      "subject": 124,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 41,
+      "base": "slice_0041",
+      "score": 0.9074,
+      "label": 1,
+      "subject": 125,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 42,
+      "base": "slice_0042",
+      "score": 0.9025,
+      "label": 1,
+      "subject": 126,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 43,
+      "base": "slice_0043",
+      "score": 0.9021,
+      "label": 1,
+      "subject": 127,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 44,
+      "base": "slice_0044",
+      "score": 0.9033,
+      "label": 1,
+      "subject": 128,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 45,
+      "base": "slice_0045",
+      "score": 0.903,
+      "label": 1,
+      "subject": 129,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 46,
+      "base": "slice_0046",
+      "score": 0.9015,
+      "label": 1,
+      "subject": 130,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 47,
+      "base": "slice_0047",
+      "score": 0.9002,
+      "label": 1,
+      "subject": 131,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 48,
+      "base": "slice_0048",
+      "score": 0.9009,
+      "label": 1,
+      "subject": 132,
+      "has_gt": true,
+      "region": "superior"
+    },
+    {
+      "id": 49,
+      "base": "slice_0049",
+      "score": 0.8994,
+      "label": 1,
+      "subject": 133,
+      "has_gt": true,
+      "region": "superior"
+    }
+  ]
+}

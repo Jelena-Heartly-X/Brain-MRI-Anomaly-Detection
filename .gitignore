@@ -1,0 +1,96 @@
+# ==============================================================================
+# OS Files
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================================================================
+# Python / Backend
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Packages and Distribution
+*.egg
+*.egg-info/
+.installed.cfg
+.eggs/
+build/
+dist/
+lib/
+lib64/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================================================================
+# Deep Learning / Data
+# ==============================================================================
+# Ignore all PyTorch checkpoints/weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+
+# Ignore raw/processed volumetric data
+*.nii
+*.nii.gz
+*.dicom
+*.dcm
+*.npy
+*.npz
+
+# Ignore large output/logging directories if they exist at root or inside backend
+checkpoints/
+outputs/
+backend/checkpoints/
+backend/outputs/
+logs/
+wandb/
+
+# Do NOT ignore the frontend manifest since it's required for the React Demo
+!frontend/public/manifest.json
+
+# ==============================================================================
+# Node / Frontend 
+# (Frontend also has its own .gitignore handling node_modules)
+# ==============================================================================
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
